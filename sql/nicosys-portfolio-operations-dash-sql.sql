@@ -1,29 +1,107 @@
 /*
 Business Question:
-What’s the most money I made in a day? Week?
+What’s the most money I made in a day?
 What are the compositions of those days? Can I/Should I repeat those type of days; efficient to do so?
 
 Stakeholder:
 myself as the dasher 
 
 Purpose:
-To see how much money I've earned in a day and in a week. 
+To see how much money I've earned in a day. 
 
 SQL Query: Query Below
 
 Findings:
+The most I've made in a day is $96
+Tripple digit earnings come from three days.
+Sunday, 31 shifts, $2,059.59
+Friday, 27 shifts, $1,908.95
+Saturday, 25 shifts, $1,579.84
+Friday-Sunday shifts account for 71%(71.41%) of total earnings.
+Monday-Thurs shifts make up the remaining 29%(28.59%) of total earnings.
+Shift types associated with highest earnings are:
+Dinner on Fridays totaling 10 shifts 
+and Weekend Dinners: 15 Sunday Dinners | 11 Sat Dinners
 
 Business Insight:
+The highest earning days come from Friday - Sunday during dinner time.
+
 
 Recommendation:
+Focus more on dashing Friday-Sunday. 
+Further investigate What hours of day and shift type earn the most money. 
 
+0 = Sunday
+1 = Monday
+2 = Tuesday
+3 = Wednesday
+4 = Thursday
+5 = Friday
+6 = Saturday
 */
 
+--Days I earn and work the most
 Select
-	max(gross_earnings)
+	  sum(gross_earnings)
+	, day_name
+	, count(day_name)
+From
+	dash
+Group By
+	  day_name
+Order By
+	sum(gross_earnings) desc
+;
+
+
+--What shift types are associated with highest earnings? Dinner on Fridays and Weekend Dinners
+Select
+	  sum(gross_earnings)
+	, day_name
+	, count(day_name)
+	, shift_type
+From
+	dash
+Where
+	day_name in (5,6,0)
+Group By
+	  day_name
+	, shift_type
+Order By
+	sum(gross_earnings) desc
+;
+
+
+
+Select
+	  sum(gross_earnings)
+	, dash_zone
+	, day_name
+	, shift_type
+	, start_time
+	, end_time
+From
+	dash
+Where
+	day_name in (5,6,0)
+Group By
+	  dash_zone
+	, day_name
+	, shift_type
+	, start_time
+	, end_time
+Order By
+	sum(gross_earnings) desc
+;
+
+
+--$7,769.93 total gross earnings 
+Select
+	sum(gross_earnings)
 From
 	dash
 ;
+
 
 Select
 	  gross_earnings
@@ -216,3 +294,8 @@ Create Table dash (
 	, notes text
 )
 ;
+
+Alter Table dash
+add column day_name int 
+	generated always as (extract(dow from shift_date)) stored;
+
