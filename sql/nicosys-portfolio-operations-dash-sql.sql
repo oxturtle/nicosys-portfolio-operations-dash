@@ -1,7 +1,7 @@
 /*
 Business Question:
 What’s the most money I made in a day?
-What are the compositions of those days? Can I/Should I repeat those type of days; efficient to do so?
+What are the compositions of those days? 
 
 Stakeholder:
 myself as the dasher 
@@ -12,8 +12,8 @@ To see how much money I've earned in a day.
 SQL Query: Query Below
 
 Findings:
-The most I've made in a day is $96
-Tripple digit earnings come from three days.
+The day that has earned me the most money is Sunday.
+Tripple-digit earnings come from three specifdic days:
 Sunday, 31 shifts, $2,059.59
 Friday, 27 shifts, $1,908.95
 Saturday, 25 shifts, $1,579.84
@@ -25,11 +25,11 @@ and Weekend Dinners: 15 Sunday Dinners | 11 Sat Dinners
 
 Business Insight:
 The highest earning days come from Friday - Sunday during dinner time.
-
+Friday - Sunday shifts account for 71% or total gross earnings. 
 
 Recommendation:
 Focus more on dashing Friday-Sunday. 
-Further investigate What hours of day and shift type earn the most money. 
+Further investigate which hours of busiest days and shift type earn the most money. 
 
 0 = Sunday
 1 = Monday
@@ -54,6 +54,23 @@ Order By
 ;
 
 
+--Out of my busy days, What dash zone am I earning the most money? | Henderson 
+Select
+	  sum(gross_earnings)
+	, day_name
+	, count(day_name)
+	, dash_zone
+From
+	dash
+Where
+	day_name in (5,6,0)
+Group By
+	  day_name
+	  , dash_zone
+Order By
+	sum(gross_earnings) desc
+;
+
 --What shift types are associated with highest earnings? Dinner on Fridays and Weekend Dinners
 Select
 	  sum(gross_earnings)
@@ -75,21 +92,20 @@ Order By
 
 Select
 	  sum(gross_earnings)
-	, dash_zone
 	, day_name
+	, count(day_name)
 	, shift_type
-	, start_time
-	, end_time
+	--, start_time
+	--, end_time
 From
 	dash
 Where
-	day_name in (5,6,0)
+	day_name not in (5,6,0)
 Group By
-	  dash_zone
-	, day_name
+	  day_name
 	, shift_type
-	, start_time
-	, end_time
+	--, start_time
+	--, end_time
 Order By
 	sum(gross_earnings) desc
 ;
@@ -129,7 +145,35 @@ From
 ;
 
 
-/*
+--shifts where avg $/mile is $2 or more
+Select
+	*
+From
+	dash
+Where
+	avg_dollars_per_mile >1.99
+;
+
+
+--avg gross earnings/day = $65.85
+Select
+	Round(avg(gross_earnings),2)
+From
+	dash
+;
+
+Select
+	*
+From
+	dash
+Where
+	day_name in (5,6,0)
+;
+
+/*Select
+	*
+From
+	dash
 Business Question:
 What shifts make the most money?
 
@@ -145,13 +189,15 @@ Findings:
 Average earnings:
 Targeted Sprint: $68.64, Dinner: $67.66, Peak Pay: $66.36, Weekend Dinner: $65.73, Lunch: $63.64, Open Schedule: $47.08
 
-
-
-
 Business Insight:
-
+On average, Targeted Sprint shift have the highest earnings at $68.64/shift. 
+However, following close in second highest earnings is Dinner shifts at $67.66.
 
 Recommendation:
+For more consistentcy and realiability, focus on doing Dinner and Weekend Dinner shifts.
+When the opportunity arises, do targeted sprint and Peak Pay shifts based off of busy periods.
+Since these are only promos, regular business should take place during normal dinnner and weekend dinner shifts.
+Everything else is extra/bonus. 
 
 */
 
@@ -201,58 +247,65 @@ To reveal $/mile during shifts and see if I'm being efficient with my time and m
 SQL Query: Query Below
 
 Findings:
+Avg $/mile = $3.45
+Min $/mile = $.60
+Max $/mile = $8.55
 
 Business Insight:
-
+On average I'm earning $1.45 more (72% more) than my normal rule of $2/mile.
 
 Recommendation:
+Keep averages where they are at proceed at >=$2/mile. 
+Investigate min $/mile and avoid behaviors that lead to that outcome.
+Investigate max $/mile of $8.55 to increase this outcome. 
 
 */
 
+--avg $/mile, min $/mile, max $/mile 
+Select
+	  Round(avg(avg_dollars_per_mile),2)
+	, min(avg_dollars_per_mile)
+	, max(avg_dollars_per_mile)
+From
+	dash
+;
 
 /*
-Business Question:
-What order paid the highest?
-
-Stakeholder:
-myself as the dasher 
-
-Purpose:
-To see which order(s) pay me the highest. 
-
-SQL Query: Query Below
-
-Findings:
-
-Business Insight:
-
-
-Recommendation:
 
 */
+Select
+	*
+From
+	dash
+Where
+	avg_dollars_per_mile >1.8
+Order By
+	gross_earnings desc
+;
+
+--progress over time: avg $/mile, avg earnings, and hours worked 
+Select
+	  Round(avg(avg_dollars_per_mile),2) avg_dollar_per_mile
+	, round(avg(gross_earnings),2) avg_earning
+	, shift_date
+	, hours_worked
+From
+	dash
+Group By
+	  shift_date
+	, hours_worked
+Order By
+	  shift_date
+;
 
 
 
-/*
-Business Question:
-What orders are associated with making the most money overall?
+Select
+	*
+From
+	dash
+;
 
-Stakeholder:
-myself as the dasher 
-
-Purpose:
-To see which order(s) pay me the highest. 
-
-SQL Query: Query Below
-
-Findings:
-
-Business Insight:
-
-
-Recommendation:
-
-*/
 
 
 /*
