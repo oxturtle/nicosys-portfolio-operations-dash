@@ -54,21 +54,31 @@ Order By
 ;
 
 
---Out of my busy days, What dash zone am I earning the most money? | Henderson 
+/*
+Out of my busy days, What dash zones am I earning the most money?
+Henderson: $2,228.78
+Green Valley: $1,165.78
+
+To veiw specific days related to zones, uncomment day_name from Select and Group By clauses.
+*/
+
 Select
 	  sum(gross_earnings)
-	, day_name
-	, count(day_name)
 	, dash_zone
 From
 	dash
 Where
-	day_name in (5,6,0)
+	day_name in (0,5,6) --Fridays(5), Saturdays(6), and Sundays(0)
 Group By
-	  day_name
-	  , dash_zone
+	dash_zone
 Order By
 	sum(gross_earnings) desc
+;
+
+Select
+	sum(gross_earnings)
+From
+	dash
 ;
 
 --What shift types are associated with highest earnings? Dinner on Fridays and Weekend Dinners
@@ -170,35 +180,35 @@ Where
 	day_name in (5,6,0)
 ;
 
-/*Select
-	*
-From
-	dash
+/*
 Business Question:
-What shifts make the most money?
+What shifts make the most money during busy days of week?
 
 Stakeholder:
 myself as the dasher 
 
 Purpose:
-Define the shifts that generate me the most money. 
+On busy days of week, define the shifts that generate me the most money. 
 
 SQL Query: Query Below
 
 Findings:
-Average earnings:
-Targeted Sprint: $68.64, Dinner: $67.66, Peak Pay: $66.36, Weekend Dinner: $65.73, Lunch: $63.64, Open Schedule: $47.08
+Targeted Sprint: $80.68, 
+Dinner: $70.48, 
+Peak Pay: $66.09, 
+Weekend Dinner: $65.73, 
+Open Schedule: $38.60
+
 
 Business Insight:
-On average, Targeted Sprint shift have the highest earnings at $68.64/shift. 
-However, following close in second highest earnings is Dinner shifts at $67.66.
+On average, Targeted Sprint shift have the highest earnings at $80.68/shift. 
+However, following close in second highest earnings is Dinner shifts at $70.48.
 
 Recommendation:
 For more consistentcy and realiability, focus on doing Dinner and Weekend Dinner shifts.
 When the opportunity arises, do targeted sprint and Peak Pay shifts based off of busy periods.
 Since these are only promos, regular business should take place during normal dinnner and weekend dinner shifts.
 Everything else is extra/bonus. 
-
 */
 
 Select
@@ -206,17 +216,22 @@ Select
 	, shift_type
 From
 	dash
+Where
+	day_name in (5,6,0)
 Group By
 	  shift_type
 Order By
 	avg(gross_earnings) desc
 ;
 
+
 Select
 	  max(gross_earnings) max_earnings
 	, shift_type
 From
 	dash
+Where
+	day_name in (5,6,0)
 Group By
 	  shift_type
 Order By
@@ -228,6 +243,8 @@ Select
 	, shift_type
 From
 	dash
+Where
+	day_name in (5,6,0)
 Group By
 	  shift_type
 Order By
@@ -328,7 +345,6 @@ Business Insight:
 Recommendation:
 
 */
-
 
 
 

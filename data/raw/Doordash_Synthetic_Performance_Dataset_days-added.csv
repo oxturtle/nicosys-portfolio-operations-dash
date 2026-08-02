@@ -1,0 +1,119 @@
+"shift_date","shift_type","start_time","end_time","hours_worked","gross_earnings","estimated_miles","orders_completed","avg_dollars_per_mile","dash_zone","bonus_active","notes","day_name"
+"2025-11-03","Dinner","17:00:00","00:00:00",7.00,70.74,73.0,12,0.97,"Southwest","No","Accepted most offers; several long-distance orders.",1
+"2025-11-06","Lunch","10:45:00","17:00:00",6.25,64.67,62.4,10,1.04,"Henderson","No","Chased a bonus outside the best zone.",4
+"2025-11-07","Weekend Dinner","16:30:00","21:45:00",5.25,52.87,74.6,9,0.71,"Henderson","No","Long shift with weak late-hour demand.",5
+"2025-11-08","Peak Pay","17:30:00","22:30:00",5.00,43.73,57.0,7,0.77,"Summerlin","Yes","Chased a bonus outside the best zone.",6
+"2025-11-09","Open Schedule","14:30:00","20:00:00",5.50,44.78,74.9,7,0.60,"Henderson","No","Long shift with weak late-hour demand.",0
+"2025-11-14","Dinner","17:30:00","01:15:00",7.75,70.59,112.0,13,0.63,"Henderson","No","No firm minimum payout rule yet.",5
+"2025-11-15","Peak Pay","16:00:00","22:45:00",6.75,75.85,94.7,10,0.80,"Southwest","Yes","Waited too long at a slow merchant; low order turnover.",6
+"2025-11-16","Peak Pay","17:00:00","00:00:00",7.00,59.22,73.3,8,0.81,"Henderson","Yes","Chased a bonus outside the best zone.",0
+"2025-11-21","Peak Pay","16:30:00","23:15:00",6.75,74.08,74.7,12,0.99,"Southwest","Yes","Long shift with weak late-hour demand.",5
+"2025-11-22","Dinner","18:00:00","23:45:00",5.75,50.13,65.7,9,0.76,"Southwest","No","Accepted most offers; several long-distance orders.",6
+"2025-11-23","Dinner","16:00:00","22:45:00",6.75,64.21,87.3,10,0.74,"North Las Vegas","Yes","Stacked order looked good but added excessive miles.",0
+"2025-11-30","Weekend Dinner","17:30:00","00:15:00",6.75,45.14,57.2,9,0.79,"Green Valley","No","Stacked order looked good but added excessive miles.",0
+"2025-12-02","Open Schedule","15:00:00","21:00:00",6.00,58.90,94.3,10,0.62,"Henderson","No","Long shift with weak late-hour demand.",2
+"2025-12-03","Open Schedule","14:30:00","20:30:00",6.00,52.21,63.8,9,0.82,"Southwest","No","No firm minimum payout rule yet.",3
+"2025-12-05","Peak Pay","16:30:00","22:00:00",5.50,52.13,52.2,8,1.00,"Henderson","Yes","Chased a bonus outside the best zone.",5
+"2025-12-06","Weekend Dinner","17:30:00","23:30:00",6.00,63.92,67.2,10,0.95,"Summerlin","No","Waited too long at a slow merchant; low order turnover.",6
+"2025-12-07","Peak Pay","17:00:00","22:30:00",5.50,57.07,59.9,9,0.95,"North Las Vegas","Yes","Long shift with weak late-hour demand.",0
+"2025-12-09","Dinner","17:30:00","23:30:00",6.00,53.45,61.2,9,0.87,"Southwest","No","Waited too long at a slow merchant; low order turnover.",2
+"2025-12-13","Weekend Dinner","17:30:00","00:15:00",6.75,50.43,79.5,8,0.63,"Green Valley","No","Accepted most offers; several long-distance orders.",6
+"2025-12-14","Open Schedule","15:00:00","20:15:00",5.25,32.41,41.4,6,0.78,"Green Valley","No","No firm minimum payout rule yet.",0
+"2025-12-19","Weekend Dinner","16:30:00","23:15:00",6.75,69.72,68.4,12,1.02,"Green Valley","Yes","Stacked order looked good but added excessive miles.",5
+"2025-12-20","Weekend Dinner","18:00:00","01:15:00",7.25,62.01,78.1,13,0.79,"Summerlin","No","Chased a bonus outside the best zone.",6
+"2025-12-21","Dinner","17:00:00","00:15:00",7.25,89.24,86.6,13,1.03,"North Las Vegas","Yes","Stacked order looked good but added excessive miles.",0
+"2025-12-27","Weekend Dinner","18:00:00","00:00:00",6.00,46.04,51.2,8,0.90,"North Las Vegas","No","Chased a bonus outside the best zone.",6
+"2025-12-28","Weekend Dinner","17:30:00","00:30:00",7.00,69.70,90.9,12,0.77,"North Las Vegas","No","Long shift with weak late-hour demand.",0
+"2025-12-30","Peak Pay","17:00:00","22:45:00",5.75,53.40,73.9,8,0.72,"Green Valley","Yes","Waited too long at a slow merchant; low order turnover.",2
+"2025-12-31","Dinner","18:00:00","00:00:00",6.00,46.67,58.5,8,0.80,"North Las Vegas","No","Waited too long at a slow merchant; low order turnover.",3
+"2026-01-03","Peak Pay","18:00:00","23:15:00",5.25,77.66,29.8,10,2.61,"Henderson","Yes","Used $1.50/mile as a minimum screening rule.",6
+"2026-01-04","Weekend Dinner","17:00:00","22:30:00",5.50,54.81,27.1,8,2.02,"North Las Vegas","No","Ended shift earlier when hourly rate began falling.",0
+"2026-01-08","Dinner","17:30:00","22:00:00",4.50,43.39,24.0,8,1.81,"Henderson","No","Tested a preferred merchant list; fewer long waits.",4
+"2026-01-09","Peak Pay","16:30:00","22:00:00",5.50,61.67,16.5,9,3.74,"Southwest","Yes","Used $1.50/mile as a minimum screening rule.",5
+"2026-01-11","Weekend Dinner","16:30:00","21:30:00",5.00,53.75,19.1,8,2.81,"Henderson","No","Used $1.50/mile as a minimum screening rule.",0
+"2026-01-15","Dinner","16:00:00","20:45:00",4.75,61.97,24.8,9,2.50,"Henderson","No","Started declining offers below $7 unless mileage was very low.",4
+"2026-01-24","Dinner","17:00:00","22:30:00",5.50,81.02,27.1,11,2.99,"Green Valley","No","Ended shift earlier when hourly rate began falling.",6
+"2026-01-25","Peak Pay","17:00:00","23:00:00",6.00,65.27,26.2,10,2.49,"Green Valley","Yes","Ended shift earlier when hourly rate began falling.",0
+"2026-01-30","Dinner","16:30:00","21:45:00",5.25,69.89,21.0,10,3.33,"Henderson","No","Tracked estimated completion time before accepting.",5
+"2026-01-31","Weekend Dinner","17:00:00","21:45:00",4.75,60.98,20.4,9,2.99,"Henderson","No","Tested a preferred merchant list; fewer long waits.",6
+"2026-02-06","Dinner","16:30:00","22:00:00",5.50,60.14,17.2,8,3.50,"Green Valley","No","Moved back to a stronger zone after demand slowed.",5
+"2026-02-07","Peak Pay","17:30:00","23:15:00",5.75,75.57,27.6,9,2.74,"North Las Vegas","Yes","Started declining offers below $7 unless mileage was very low.",6
+"2026-02-08","Weekend Dinner","18:00:00","22:45:00",4.75,69.27,24.2,9,2.86,"Southwest","No","Moved back to a stronger zone after demand slowed.",0
+"2026-02-09","Peak Pay","17:30:00","22:45:00",5.25,81.11,27.2,9,2.98,"Henderson","Yes","Tracked estimated completion time before accepting.",1
+"2026-02-11","Lunch","11:15:00","17:30:00",6.25,54.62,23.8,8,2.29,"Henderson","No","Used $1.50/mile as a minimum screening rule.",3
+"2026-02-13","Peak Pay","16:30:00","22:15:00",5.75,83.89,34.7,12,2.42,"Henderson","Yes","Started declining offers below $7 unless mileage was very low.",5
+"2026-02-15","Weekend Dinner","17:00:00","22:30:00",5.50,54.79,26.8,7,2.04,"North Las Vegas","Yes","Used $1.50/mile as a minimum screening rule.",0
+"2026-02-20","Dinner","18:00:00","23:15:00",5.25,78.96,30.0,11,2.63,"Henderson","No","Ended shift earlier when hourly rate began falling.",5
+"2026-02-21","Dinner","16:30:00","20:45:00",4.25,53.39,20.3,7,2.63,"Green Valley","Yes","Started declining offers below $7 unless mileage was very low.",6
+"2026-02-23","Lunch","11:00:00","16:00:00",5.00,58.59,18.7,8,3.13,"Green Valley","Yes","Ended shift earlier when hourly rate began falling.",1
+"2026-02-27","Weekend Dinner","16:00:00","21:30:00",5.50,49.03,21.2,8,2.31,"Green Valley","No","Tracked estimated completion time before accepting.",5
+"2026-03-01","Weekend Dinner","18:00:00","23:45:00",5.75,71.34,26.1,11,2.73,"Henderson","No","Moved back to a stronger zone after demand slowed.",0
+"2026-03-05","Lunch","10:45:00","15:15:00",4.50,60.07,27.5,9,2.18,"Southwest","No","Used $1.50/mile as a minimum screening rule.",4
+"2026-03-06","Peak Pay","17:00:00","22:15:00",5.25,70.24,31.0,11,2.27,"Summerlin","Yes","Started declining offers below $7 unless mileage was very low.",5
+"2026-03-07","Weekend Dinner","16:00:00","20:30:00",4.50,48.32,22.3,7,2.17,"Green Valley","No","Moved back to a stronger zone after demand slowed.",6
+"2026-03-08","Dinner","16:30:00","21:45:00",5.25,81.71,29.0,11,2.82,"Henderson","No","Tested a preferred merchant list; fewer long waits.",0
+"2026-03-11","Dinner","18:00:00","00:00:00",6.00,65.03,21.2,10,3.07,"Green Valley","No","Started declining offers below $7 unless mileage was very low.",3
+"2026-03-13","Weekend Dinner","17:30:00","21:45:00",4.25,72.47,15.7,9,4.62,"Green Valley","Yes","Prioritized reliable merchants with fast pickup times.",5
+"2026-03-14","Peak Pay","17:00:00","20:30:00",3.50,51.83,13.4,7,3.87,"Green Valley","Yes","Used estimated time per order to protect hourly earnings.",6
+"2026-03-15","Peak Pay","17:00:00","21:45:00",4.75,84.44,20.1,10,4.20,"Henderson","Yes","Prioritized reliable merchants with fast pickup times.",0
+"2026-03-19","Dinner","16:30:00","20:00:00",3.50,55.45,13.6,7,4.08,"Green Valley","Yes","Applied $7+ order and $2/mile targets consistently.",4
+"2026-03-20","Dinner","16:00:00","20:00:00",4.00,79.94,14.8,9,5.40,"Summerlin","Yes","Used estimated time per order to protect hourly earnings.",5
+"2026-03-21","Dinner","18:00:00","22:00:00",4.00,74.35,23.0,9,3.23,"Southwest","No","Worked only the strongest dinner window.",6
+"2026-03-22","Weekend Dinner","17:30:00","20:45:00",3.25,58.46,18.2,7,3.21,"Henderson","Yes","Declined orders with poor return-mile potential.",0
+"2026-03-26","Peak Pay","16:00:00","19:00:00",3.00,42.95,12.9,5,3.33,"Southwest","Yes","Prioritized reliable merchants with fast pickup times.",4
+"2026-03-27","Weekend Dinner","18:00:00","22:45:00",4.75,67.78,15.3,9,4.43,"Henderson","No","Worked only the strongest dinner window.",5
+"2026-03-28","Weekend Dinner","16:30:00","21:15:00",4.75,84.80,22.4,10,3.79,"Green Valley","No","Worked only the strongest dinner window.",6
+"2026-03-29","Dinner","18:00:00","22:00:00",4.00,68.92,12.9,8,5.34,"Green Valley","Yes","Applied $7+ order and $2/mile targets consistently.",0
+"2026-04-05","Weekend Dinner","18:00:00","21:30:00",3.50,62.56,15.8,8,3.96,"Southwest","No","Applied $7+ order and $2/mile targets consistently.",0
+"2026-04-09","Dinner","16:00:00","19:30:00",3.50,41.87,12.9,6,3.25,"Summerlin","No","Prioritized reliable merchants with fast pickup times.",4
+"2026-04-11","Weekend Dinner","18:00:00","21:45:00",3.75,58.55,16.4,8,3.57,"Henderson","No","Used estimated time per order to protect hourly earnings.",6
+"2026-04-14","Targeted Sprint","17:00:00","21:15:00",4.25,59.95,17.1,8,3.51,"Green Valley","No","Used estimated time per order to protect hourly earnings.",2
+"2026-04-15","Dinner","18:00:00","22:15:00",4.25,63.86,16.7,9,3.82,"Green Valley","No","Used estimated time per order to protect hourly earnings.",3
+"2026-04-17","Dinner","16:30:00","21:30:00",5.00,78.84,27.5,11,2.87,"North Las Vegas","No","Applied $7+ order and $2/mile targets consistently.",5
+"2026-04-18","Weekend Dinner","16:00:00","19:45:00",3.75,67.74,15.9,8,4.26,"Henderson","No","Worked only the strongest dinner window.",6
+"2026-04-19","Peak Pay","17:00:00","21:45:00",4.75,80.13,25.9,9,3.09,"Summerlin","Yes","Worked only the strongest dinner window.",0
+"2026-04-20","Lunch","11:15:00","15:45:00",4.50,80.78,17.9,9,4.51,"Henderson","No","Avoided low-value stacks and apartment-heavy routes.",1
+"2026-04-22","Lunch","11:15:00","15:00:00",3.75,59.07,12.3,7,4.80,"Southwest","No","Worked only the strongest dinner window.",3
+"2026-04-23","Targeted Sprint","17:00:00","21:30:00",4.50,53.30,21.6,8,2.47,"Henderson","No","Declined orders with poor return-mile potential.",4
+"2026-04-24","Weekend Dinner","16:00:00","20:15:00",4.25,60.94,17.0,8,3.58,"Green Valley","No","Avoided low-value stacks and apartment-heavy routes.",5
+"2026-04-26","Weekend Dinner","18:00:00","22:15:00",4.25,84.67,15.1,10,5.61,"Henderson","No","Prioritized reliable merchants with fast pickup times.",0
+"2026-04-29","Lunch","11:00:00","15:30:00",4.50,62.14,23.9,9,2.60,"Green Valley","Yes","Prioritized reliable merchants with fast pickup times.",3
+"2026-04-30","Dinner","18:00:00","23:15:00",5.25,79.03,13.7,10,5.77,"Green Valley","No","Prioritized reliable merchants with fast pickup times.",4
+"2026-05-01","Dinner","16:00:00","20:00:00",4.00,57.61,15.6,8,3.69,"Henderson","No","Worked only the strongest dinner window.",5
+"2026-05-02","Weekend Dinner","16:30:00","20:15:00",3.75,59.67,12.3,8,4.85,"Henderson","No","Avoided low-value stacks and apartment-heavy routes.",6
+"2026-05-03","Dinner","17:30:00","21:00:00",3.50,64.71,12.8,7,5.06,"Southwest","Yes","Prioritized reliable merchants with fast pickup times.",0
+"2026-05-06","Lunch","11:15:00","14:45:00",3.50,63.18,13.8,8,4.58,"Henderson","No","Declined orders with poor return-mile potential.",3
+"2026-05-08","Weekend Dinner","16:00:00","20:15:00",4.25,80.13,23.1,10,3.47,"Southwest","No","Prioritized reliable merchants with fast pickup times.",5
+"2026-05-09","Weekend Dinner","16:30:00","21:00:00",4.50,86.23,16.8,10,5.13,"Southwest","No","Prioritized reliable merchants with fast pickup times.",6
+"2026-05-14","Targeted Sprint","16:00:00","20:45:00",4.75,65.74,22.0,10,2.99,"Henderson","No","Prioritized reliable merchants with fast pickup times.",4
+"2026-05-15","Dinner","18:00:00","23:00:00",5.00,91.43,18.8,12,4.86,"Summerlin","No","Declined orders with poor return-mile potential.",5
+"2026-05-21","Peak Pay","17:30:00","21:30:00",4.00,85.35,14.1,9,6.05,"Summerlin","Yes","Accepted only offers meeting payout, mileage, and time criteria.",4
+"2026-05-22","Targeted Sprint","16:30:00","20:00:00",3.50,69.20,16.7,8,4.14,"Henderson","No","Maintained $7+ order floor with limited strategic exceptions.",5
+"2026-05-24","Peak Pay","17:30:00","21:15:00",3.75,85.23,11.3,10,7.54,"Summerlin","Yes","Strong zone positioning reduced idle time and dead miles.",0
+"2026-05-26","Dinner","17:30:00","21:30:00",4.00,73.05,15.5,9,4.71,"Henderson","Yes","Targeted high-volume merchants and ended after the dinner peak.",2
+"2026-05-28","Lunch","11:30:00","14:45:00",3.25,69.63,12.5,7,5.57,"Henderson","No","Maintained $7+ order floor with limited strategic exceptions.",4
+"2026-05-30","Peak Pay","17:00:00","20:15:00",3.25,59.36,12.2,6,4.87,"Green Valley","Yes","Stopped when order quality dropped instead of extending the shift.",6
+"2026-05-31","Weekend Dinner","16:00:00","18:45:00",2.75,51.33,14.1,5,3.64,"North Las Vegas","Yes","Strong zone positioning reduced idle time and dead miles.",0
+"2026-06-03","Peak Pay","16:30:00","20:15:00",3.75,75.55,11.5,8,6.57,"Green Valley","Yes","Accepted only offers meeting payout, mileage, and time criteria.",3
+"2026-06-07","Dinner","16:30:00","19:45:00",3.25,63.42,8.0,6,7.93,"Henderson","No","Targeted high-volume merchants and ended after the dinner peak.",0
+"2026-06-10","Targeted Sprint","16:30:00","19:15:00",2.75,53.76,8.0,6,6.72,"Summerlin","No","Strong zone positioning reduced idle time and dead miles.",3
+"2026-06-12","Peak Pay","17:30:00","21:00:00",3.50,62.30,19.9,7,3.13,"North Las Vegas","Yes","Short, focused shift produced better earnings than older long shifts.",5
+"2026-06-14","Weekend Dinner","16:30:00","20:30:00",4.00,76.13,13.2,7,5.77,"Green Valley","No","Short, focused shift produced better earnings than older long shifts.",0
+"2026-06-16","Targeted Sprint","16:00:00","20:45:00",4.75,86.36,18.4,9,4.69,"Southwest","No","Stopped when order quality dropped instead of extending the shift.",2
+"2026-06-19","Weekend Dinner","16:30:00","20:45:00",4.25,93.50,16.3,9,5.74,"Henderson","Yes","Targeted high-volume merchants and ended after the dinner peak.",5
+"2026-06-20","Dinner","17:00:00","20:15:00",3.25,68.41,8.0,7,8.55,"Henderson","No","Targeted high-volume merchants and ended after the dinner peak.",6
+"2026-06-21","Weekend Dinner","18:00:00","22:30:00",4.50,90.49,11.0,9,8.23,"Henderson","Yes","Maintained $7+ order floor with limited strategic exceptions.",0
+"2026-06-25","Dinner","16:30:00","20:15:00",3.75,65.01,9.3,8,6.99,"Henderson","No","Maintained $7+ order floor with limited strategic exceptions.",4
+"2026-06-26","Peak Pay","16:30:00","19:15:00",2.75,54.64,10.7,6,5.11,"Henderson","Yes","Accepted only offers meeting payout, mileage, and time criteria.",5
+"2026-06-27","Peak Pay","17:30:00","21:00:00",3.50,60.87,8.6,7,7.08,"Henderson","Yes","Stopped when order quality dropped instead of extending the shift.",6
+"2026-06-28","Weekend Dinner","17:30:00","21:15:00",3.75,79.21,17.4,9,4.55,"Green Valley","No","Targeted high-volume merchants and ended after the dinner peak.",0
+"2026-06-29","Dinner","17:30:00","22:15:00",4.75,95.04,15.1,10,6.29,"Henderson","Yes","Short, focused shift produced better earnings than older long shifts.",1
+"2026-07-01","Peak Pay","18:00:00","21:00:00",3.00,65.66,10.0,7,6.57,"Southwest","Yes","Maintained $7+ order floor with limited strategic exceptions.",3
+"2026-07-03","Dinner","16:00:00","20:30:00",4.50,96.44,24.3,11,3.97,"North Las Vegas","Yes","Stopped when order quality dropped instead of extending the shift.",5
+"2026-07-05","Weekend Dinner","16:00:00","19:45:00",3.75,78.03,16.4,8,4.76,"Southwest","No","Strong zone positioning reduced idle time and dead miles.",0
+"2026-07-10","Dinner","17:00:00","20:00:00",3.00,58.37,8.0,5,7.30,"Henderson","No","Targeted high-volume merchants and ended after the dinner peak.",5
+"2026-07-11","Peak Pay","16:30:00","19:30:00",3.00,61.89,9.7,7,6.38,"Henderson","Yes","Stopped when order quality dropped instead of extending the shift.",6
+"2026-07-12","Peak Pay","17:00:00","19:45:00",2.75,56.87,12.2,6,4.66,"Henderson","Yes","Stopped when order quality dropped instead of extending the shift.",0
+"2026-07-17","Targeted Sprint","18:00:00","22:00:00",4.00,92.15,14.4,10,6.40,"Henderson","Yes","Strong zone positioning reduced idle time and dead miles.",5
+"2026-07-18","Dinner","17:30:00","20:30:00",3.00,57.09,11.3,6,5.05,"Green Valley","Yes","Accepted only offers meeting payout, mileage, and time criteria.",6
+"2026-07-19","Dinner","17:30:00","21:00:00",3.50,62.28,9.8,7,6.36,"Henderson","No","Stopped when order quality dropped instead of extending the shift.",0
