@@ -62,13 +62,12 @@ nicosys-portfolio-operations-dash/
 
 The analysis produced a set of **operational rules** that significantly improved my earnings per hour, reduced downtime, and optimized my delivery workflow. These rules are backed by data and demonstrated through the dashboard and reports included in this repository.
 
-~~~
 - $2+/mile per order: I’ve researched that the IRS and AAA insurance defines wear and tear as .50-.70/mile. Therefore, to deal with wear and tear, and still make money, I chose $2/mile, leaving me with earnings at $1.30-$1.50/mile. 
 - $7+/order: Anything less than an overall order of $7, unless the $/mile is good, usually has me putting more wear and tear on my car and out in the streets dashing longer than needed. $7+/order increases my chances to make more money with less wear and tear on my car and less hours dashing. 
 - Order ETAs of <20 min or 20-25 min: Taking too long on 1 order could potentially prevent me from taking 2-3 orders in that same amount of time. 
 - Being selective of businesses: Certain restaurants may take too long to prepare orders, or certain orders require more labor and time to complete. I keep notes on a business’s operations and service. 
 - Staying away from the Strip due to overall traffic and difficulty in getting to business establishments. 
-~~~
+
 
 ---
 
